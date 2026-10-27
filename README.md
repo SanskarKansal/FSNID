@@ -1,6 +1,6 @@
-# FSNID
+# Feature selection in Netwok Intrusion Detection
 
-FSNID is a Python project for evaluating feature-selection methods on a synthetic network intrusion detection dataset. It compares multiple selectors (`fsnid`, `brown`, `firefly`, `lasso`, and `pi`) and then trains a classifier on the subset of retained features.
+Feature selection in Netwok Intrusion Detection is a Python project for evaluating feature-selection methods on a synthetic network intrusion detection dataset. It compares multiple selectors (`fsnid`, `brown`, `firefly`, `lasso`, and `pi`) and then trains a classifier on the subset of retained features.
 
 The repository also includes a compatibility fix for the Firefly selector when the requested number of fireflies exceeds the number of unique binary subsets.
 
