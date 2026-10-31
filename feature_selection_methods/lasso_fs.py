@@ -11,7 +11,7 @@ class lasso_selection:
         - X (np.ndarray): Feature matrix.
         - y (np.ndarray): Target vector.
         - alpha (float): Regularization strength. Default is 0.01.
-        - max_iterations (int): Maximum number of iterations for the solver. Default is 5000.
+        - max_iterations (int): Maximum number of iterations for the solver. Default is 30.
         """
         self.X = X
         self.y = y
